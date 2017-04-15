@@ -1,0 +1,208 @@
+/*
+Theme Name: Themee
+Theme URI: http://hzamil.theme-e.com/
+Author: Hasan Zamil Ahmed
+Description: Description
+Version: 1.0
+License: GNU General Public License v2 or later
+License URI: LICENSE
+Text Domain: themee
+Tags:
+
+*/
+
+ 
+ 
+
+@import url('https://fonts.googleapis.com/css?family=Noto+Serif:400,400i,700,700i|Roboto:100,100i,300,300i,400,400i,500,500i,700,700i,900,900i');
+
+body{font-family: 'Roboto', sans-serif;}
+h1,h2,h3,h4,h5,h6{font-family: 'Noto Serif', serif;}
+
+
+.site-logo a{
+    
+    color: #333;
+}
+
+.themee-contact-box{
+    color: #666;
+    display: inline-block;
+    font-size: 14px;
+    margin-right: 20px;
+    padding-left: 60px;
+    position: relative;
+}
+
+.themee-cart, .themee-contact-box i.fa{
+    
+    border: 1px solid #e0e9ee;
+    border-radius: 50%;
+    font-size: 18px;
+    height: 53px;
+    line-height: 46px;
+    position: absolute;
+    right: 0;
+    text-align: center;
+    top: 0;
+    width: 53px;
+    
+}
+
+.header-right-content{
+    
+     text-align: right;
+    padding-right: 134px;
+    position: relative;
+}
+
+ 
+.themee-btn span {
+    border-radius: 50%;
+    display: block;
+    height: 60px;
+    line-height: 60px;
+    position: absolute;
+    right: -10px;
+    top: -10px;
+    width: 30px;
+    
+    
+}
+
+.btn.btn-primary.btn-lg {
+    padding-left: 50px;
+    padding-right: 50px;
+    position: absolute;
+    text-align: center;
+}
+
+/* .themee-cart span{
+    
+    background: #278cc1 none repeat scroll 0 0;
+    border-radius: 50%;
+    color: #fff;
+    display: block;
+    font-size: 14px;
+    height: 30px;
+    line-height: 30px;
+    position: absolute;
+    right: -10px;
+    top: -10px;
+    width: 30px;
+} */
+
+.themee-contact-box i.fa{
+    
+    left: 0;
+    line-height: 48px;
+    margin-top: -26.5px;
+    top: 50%
+}
+
+.themee-contact-box h3{
+    
+    color: #333;
+    font-size: 20px;
+    margin: 0;
+}
+
+.header-area{
+    
+    padding-top: 30px;
+}
+
+.mainmenu{
+    
+    border-top: 1px solid #d9e4e9;
+    font-size: 17px;
+    margin-top: 30px;
+}
+
+.mainmenu a{
+    color: #333333;
+}
+
+.mainmenu ul{
+    
+    list-style: outside none none;
+    margin: 0;
+    padding: 0;
+}
+
+.mainmenu li{
+    
+    display: inline-block;
+    position: relative;
+}
+
+.mainmenu li a{
+    
+    display: block;
+    padding: 20px 30px 20px 0;
+}
+
+.site-logo h2{
+    
+    margin: 0;
+    padding: 8px 0;
+}
+
+.site-footer{
+    
+    background-color: #2a2d2f;
+    color: #8e9397;
+}
+
+.site-footer a{
+    
+    color: #afb9c0;
+}
+
+.body{
+    font-size: 15px;
+    line-height: 1.7;
+}
+
+.site-footer h4.widget-title{
+    
+    color: #fff;
+}
+
+.site-footer ul{
+    
+    line-height: 2.1;
+    list-style: outside none none;
+    margin: 0;
+    padding: 0;
+}
+
+.themee-footer-bottom{
+    
+    border-top: 1px solid #383d40;
+    padding: 20px 0;
+}
+
+.social-icons{
+    
+    font-size: 16px;
+    text-align: right;
+}
+
+.themee-footer-bottom ul{
+    
+    line-height: 1.7;
+    text-align: center;
+}
+
+
+.themee-footer-bottom li{
+    
+    display: inline-block;
+}
+
+.site-footer .widget{
+    
+    margin: 0;
+    padding: 90px 0;
+}
