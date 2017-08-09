@@ -6,6 +6,7 @@
  *
  * @package Themee
  */
+ 
 
 if ( ! function_exists( 'themee_setup' ) ) :
 /**
@@ -58,6 +59,9 @@ function themee_setup() {
 		'gallery',
 		'caption',
 	) );
+
+
+
 
 	// Set up the WordPress core custom background feature.
 	add_theme_support( 'custom-background', apply_filters( 'themee_custom_background_args', array(
@@ -114,15 +118,17 @@ add_action( 'widgets_init', 'themee_widgets_init' );
  * Enqueue scripts and styles.
  */
 function themee_scripts() {
-    
+
     wp_enqueue_style( 'themee-default', get_template_directory_uri() . '/assets/css/default.css', array(), '1.0' );
     wp_enqueue_style( 'bootstrap', get_template_directory_uri() . '/assets/css/bootstrap.min.css', array(), '3.3.7' );
-   
+
     wp_enqueue_style( 'font-awesome', get_template_directory_uri() . '/assets/css/font-awesome.min.css', array(),'4.7.0');
-    
+
+
 	wp_enqueue_style( 'themee-style', get_stylesheet_uri() );
 
 	wp_enqueue_script( 'bootstrap', get_template_directory_uri() . '/assets/js/bootstrap.min.js', array('jquery'), '20151215', true );
+
 
 	wp_enqueue_script( 'themee-skip-link-focus-fix', get_template_directory_uri() . '/js/skip-link-focus-fix.js', array(), '20151215', true );
 
@@ -157,10 +163,10 @@ require get_template_directory() . '/inc/customizer.php';
  */
 require get_template_directory() . '/inc/jetpack.php';
 
- 
+
 /**
  * Options & Metabox Framework
  */
 require get_template_directory() . '/inc/cs-framework/cs-framework.php';
 require get_template_directory() . '/inc/metabox-and-options.php';
-
+require get_template_directory() . '/custom_plugin/themee-toolkit.php';
