@@ -1,0 +1,575 @@
+
+/* Slider Section CSS  */
+
+.themee-slide-item {
+    background-color: #ddd;
+    background-position: center center;
+    background-size: cover;
+    color: #fff;
+    font-size: 20px;
+    height: 730px;
+    line-height: 31px;
+    position: relative;
+    z-index: 1;
+}
+.themee-slide-table {
+    display: table;
+    height: 100%;
+    width: 100%;
+    position: relative;
+    z-index: 2;
+
+}
+.themee-slide-tablecell {
+    display: table-cell;
+    vertical-align: middle;
+}
+.slide-overlay{
+    background: #333 none repeat scroll 0 0;
+    height: 100%;
+    left: 0;
+    opacity: 0.7;
+    position: absolute;
+    top: 0;
+    width: 100%;
+    z-index: 1;
+
+}
+
+.themee-slide-buttons{
+
+    font-size: 30px;
+    margin-top: 30px;
+}
+
+.themee-slide-item h2{
+
+    font-size: 50px;
+    margin-bottom: 40px;
+}
+
+.themee-slides .owl-nav div{
+    border-radius: 50%;
+    font-size: 30px;
+    height: 60px;
+    left: 50px;
+    line-height: 60px;
+    opacity: 0;
+    position: absolute;
+    text-align: center;
+    top: 50px;
+    transition: all 0.3s ease 0s;
+    visibility: hidden;
+    width: 60px;
+    z-index: 1;
+}
+
+.themee-slides .owl-nav div::after{
+
+    background: #fff none repeat scroll 0 0;
+    border-radius: 50%;
+    content: "";
+    height: 100%;
+    left: 0;
+    opacity: 0.5;
+    position: absolute;
+    top: 0;
+    width: 100%;
+    z-index: -1;
+}
+
+.themee-slides .owl-nav div.owl-next{
+
+    left: auto;
+    right: 50px;
+    margin-top: 216px;
+}
+.themee-slides .owl-nav div.owl-prev{
+
+    left: auto;
+
+    margin-top: 228px;
+}
+
+.themee-slides .owl-nav div i{
+
+    background: #fff none repeat scroll 0 0;
+    border-radius: 50%;
+    display: block;
+    height: 50px;
+    line-height: 50px;
+    margin: 5px;
+    width: 50px;
+
+}
+
+.themee-slides:hover .owl-nav div{
+
+    opacity: 1;
+    visibility: visible;
+}
+
+
+
+.themee-slide-buttons a{
+
+    color: #fff;
+    position: relative;
+}
+
+.themee-slide-buttons a:hover{
+
+   text-decoration: none;
+}
+
+.bordered-btn::after{
+    background: #fef14a none repeat scroll 0 0;
+    bottom: 0;
+    content: "";
+    height: 8px;
+    left: 0;
+    position: absolute;
+    transition: all 0.3s ease 0s;
+    width: 40%
+
+}
+.bordered-btn{
+
+    padding-bottom: 20px;
+}
+
+.bordered-btn:hover::after{
+
+    width: 100%
+}
+
+a:hover{
+    text-decoration: none;
+}
+
+.themee-slides .owl-nav div:hover i.fa{
+
+    background: #278cc1 none repeat scroll 0 0;
+    color: #fff;
+}
+
+/* Service Section CSS */
+
+
+.themee-service-box{
+    border: 1px solid #e6eef1;
+    margin-bottom: 30px;
+    padding-left: 25%;
+    position: relative;
+    transition: all 0.2s ease 0s;
+
+}
+
+.themee-service-content{
+    padding: 15px;
+}
+.themee-service-table{
+    display: table;
+    height: 100%;
+    width: 100%;
+}
+
+.themee-service-tablecell{
+    display: table-cell;
+    font-size: 35px;
+    text-align: center;
+    vertical-align: middle;
+    width: 100%;
+}
+.themee-service-icon{
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 25%;
+    height: 100%;
+    border-right: 1px solid #e3ebef;
+}
+.themee-service-icon::after{
+    background: #f0f6f8 none repeat scroll 0 0;
+    content: "";
+    height: 100%;
+    left: 0;
+    position: absolute;
+    top: 0;
+    width: 100%;
+    z-index: -1;
+}
+
+.themee-service-icon img{
+    max-width: 50px;
+}
+.themee-service-box:hover{
+    box-shadow: 0 10px 20px #f1f1f1;
+}
+
+.themee-service-box:hover .themee-service-icon::after{
+    background-color: #3397c6;
+    opacity: 0.8;
+}
+
+.themee-service-box:hover .themee-service-icon{
+    color: #fff;
+}
+
+.themee-service-icon::after{
+    transition: all 0.3s ease 0s;
+}
+
+
+
+/* About us section (overlay) */
+
+.vc_row.overlay {
+    color: #fff;
+    z-index: 1;
+}
+.vc_row.overlay::after {
+    background: #20272a none repeat scroll 0 0;
+    display: block;
+    height: 100%;
+    left: 0;
+    opacity: 0.9;
+    position: absolute;
+    top: 0;
+    width: 100%;
+    z-index: -1;
+}
+.bordered-btn {
+    display: inline-block;
+    position: relative;
+}
+.overlay .bordered-btn {
+    color: #fff;
+}
+.themee-stat-box h1 {
+    color: #39b4f3;
+    margin-bottom: 10px;
+}
+
+.vc_row.large-text{
+    font-size: 18px;
+
+}
+
+.vc_row.large-text .bordered-btn{
+    font-size: 20px;
+}
+
+
+
+/* Staff Section */
+
+.single-staff-box{
+    font-style: italic;
+/*    margin-bottom: 40px; */
+}
+
+.single-staff-box h3{
+
+    font-size: 20px;
+    font-style: normal;
+}
+
+.single-staff-box h3 span{
+
+    color: #666666;
+    display: block;
+    font-size: 14px;
+    font-weight: normal;
+    line-height: 26px;
+    margin-top: 5px;
+}
+
+.single-staff-box img{
+    margin-bottom: 20px;
+}
+
+/* Head Mistress Section */
+
+.single-head-box{
+    font-style: italic;
+/*    margin-bottom: 40px; */
+}
+
+.single-head-box h2{
+
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+}
+
+.single-head-box h2 span{
+
+    color: #666666;
+    display: block;
+    font-size: 14px;
+    font-weight: normal;
+    line-height: 26px;
+    margin-top: 5px;
+}
+
+.single-head-box img{
+    margin-bottom: 20px;
+}
+
+.service-more-btn{
+  text-decoration: none;
+}
+
+/* Contact Section */
+
+.vc_row.bg-left-bottom{
+    background-position: left bottom !important;
+    background-size: 455px;
+}
+
+
+
+.themee-contact-form input{
+    margin-bottom: 25px;
+}
+
+.themee-contact-form h1{
+    margin-bottom: 40px;
+}
+
+button[type="submit"] i.fa{
+    font-size: 130%;
+    padding-left: 10px;
+}
+
+.select-container{
+    background: #f5f8f9;
+    display: inline-block;
+    width: 100%;
+    border: 1px solid #e8eef1;
+    padding: 15px;
+}
+
+.select-container select{
+    width: 100%;
+}
+
+/*** Grid Gallery **/
+.nz-gallery{
+    margin-left: -1%;
+}
+
+.nz-gallery .gallery-item {
+    float: left;
+    margin-left: 1%;
+    margin-bottom: 1%;
+    background-size: cover;
+    background-position: center;
+	position: relative;
+}
+
+
+.nz-gallery[data-columns="3"] .gallery-item {
+    width: 32.3333%;
+}
+.nz-gallery[data-columns="4"] .gallery-item {
+    width: 24%;
+}
+.nz-gallery[data-columns="5"] .gallery-item {
+    width: 19%;
+}
+.nz-gallery[data-columns="2"] .gallery-item {
+    width: 49%;
+}
+
+.nz-gallery[data-columns="2"] .gallery-item {height: 350px;}
+.nz-gallery[data-columns="3"] .gallery-item {height: 250px;}
+.nz-gallery[data-columns="4"] .gallery-item {height: 220px;}
+.nz-gallery[data-columns="5"] .gallery-item {height: 180px;}
+
+.gal-overlay {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    content: '';
+    opacity: 0;
+    background: #000;
+    z-index: 1;
+    color: #fff;
+	transition: all 0.3s ease;
+}
+a.overlay-box {
+    display: block;
+    width: 100%;
+    height: 100%;
+}
+a.overlay-box:hover, a.overlay-box:focus, a.overlay-box:visited {
+	border:0;
+	outline:0;
+}
+.gal-icon i {
+    color: #58a71b;
+    /* background: #fff; */
+    font-size: 20px;
+}
+
+.gal-icon {
+    margin-top: 28%;
+}
+
+.gallery-item:hover .gal-overlay {
+    opacity: 0.5;
+}
+
+
+/* gallery section */
+
+/*.themee-tile-gallery{
+
+  margin-left: -1%;
+}
+.tile-gallery-block{
+  margin-left: 1%;
+  width: 24%;
+  float: left;
+  margin-bottom: 1%;
+  background-size: cover;
+  background-position: center;
+}
+
+themee-tile-gallery-image-3 .tile-gallery-block-1{
+
+  width: 40%;
+}
+
+themee-tile-gallery-image-3 .tile-gallery-block-3{
+  width: 33%;
+}
+
+themee-tile-gallery-image-5 .tile-gallery-block.tile-gallery-block-1{
+  width: 60%;
+}
+themee-tile-gallery-image-5 .tile-gallery-block.tile-gallery-block-2{
+  width: 38%;
+}
+themee-tile-gallery-image-5 .tile-gallery-block{
+  width: 32.333333%;
+}*/
+
+
+/*
+
+
+.slider-overlay {
+    background: #333 none repeat scroll 0 0;
+    height: 100%;
+    left: 0;
+    line-height: 30px;
+    opacity: 0.6;
+    position: absolute;
+    top: 0;
+    width: 100%;
+    z-index: -1;
+}
+.themee_single_slide h2 {
+    color: #19b5fe;
+    font-size: 35px;
+    font-weight: 700;
+    margin-bottom: 30px;
+    text-transform: uppercase;
+}
+.themee_single_slide p {
+    color: #fff;
+    font-size: 16px;
+    margin-bottom: 30px;
+}
+.themee_slider .owl-nav div {
+    background: #fff none repeat scroll 0 0;
+    border-radius: 5px;
+    color: #19b5fe;
+    font-size: 40px;
+    height: 50px;
+    left: 50px;
+    line-height: 50px;
+    position: absolute;
+    text-align: center;
+    top: 50%;
+    transition: all 0.3s ease 0s;
+    width: 50px;
+    z-index: 1;
+    opacity: 0;
+    visibility: hidden;
+}
+.themee_slider .owl-nav div.owl-next {
+    left: auto;
+    right: 50px;
+}
+.themee_slider .owl-nav div i {
+    line-height: 45px;
+}
+.themee_slider .owl-nav div:hover {
+    background: #19b5fe none repeat scroll 0 0;
+    color: #fff;
+}
+
+
+.themee_slider .owl-dots {
+    bottom: 36px;
+    left: 50%;
+    position: absolute;
+}
+.themee_slider .owl-dot {
+    background: #000 none repeat scroll 0 0;
+    display: inline-block;
+    height: 5px;
+    margin-right: 10px;
+    width: 25px;
+}
+.themee_slider .owl-dot.active {
+    background: #19b5fe none repeat scroll 0 0;
+}
+.themee_slider:hover .owl-nav div{
+    opacity: 1;
+    visibility: visible;
+}
+.themee-slide-button a.filled-btn {
+    background: #19b5fe none repeat scroll 0 0;
+    border: 2px solid #19b5fe;
+    color: #fff;
+    font-size: 16px;
+    line-height: 20px;
+    padding: 15px 30px;
+    text-align: center;
+    text-transform: capitalize;
+    display: inline-block;
+    text-decoration: none;
+    transition: all 0.3s ease 0s;
+}
+.bordered-btn {
+    background: transparent none repeat scroll 0 0;
+    border: 2px solid #19b5fe;
+    color: #fff;
+    font-size: 16px;
+    padding: 15px 30px;
+    text-align: center;
+    text-transform: capitalize;
+    display: inline-block;
+    line-height: 20px;
+    text-decoration: none;
+    transition: all 0.3s ease 0s;
+}
+.bordered-btn:hover{
+    background: #19b5fe;
+    color: #fff;
+    text-decoration: none;
+    border: 2px solid #fff;
+}
+.themee-slide-button a.filled-btn:hover{
+    background: transparent;
+    color: #fff;
+}
+
+*/
