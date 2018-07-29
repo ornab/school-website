@@ -9,13 +9,6 @@ Tags: translation-ready, custom-background, theme-options, custom-menu, post-for
 3.It comes with the support of Visual Composer page builder
 4.Made with custom plugins for different functionality and also used Codestar Framework for Meta box and Option Tree.
 
-
-Requires at least: 4.0
-Tested up to: 4.7
-Stable tag: 1.0.0
-License: GNU General Public License v2 or later
-License URI: LICENSE
-
  == Installation ==
 
 1. In your admin panel, go to Appearance > Themes and click the Add New button.
